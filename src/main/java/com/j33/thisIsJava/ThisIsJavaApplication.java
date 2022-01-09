@@ -11,7 +11,7 @@ public class ThisIsJavaApplication {
 
 		int result = value + 10;
 		System.out.println(result);
-
+ihjjkk
 		SpringApplication.run(ThisIsJavaApplication.class, args);
 	}
 
