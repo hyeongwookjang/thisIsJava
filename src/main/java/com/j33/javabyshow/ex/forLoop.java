@@ -8,4 +8,4 @@ public class forLoop {
             for (i = 1; i <= 3; i++)
                 System.out.println(i - j);
     }
-}dsadsa
+}
