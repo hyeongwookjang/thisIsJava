@@ -12,6 +12,6 @@ public class ForLoopSameple2 {
 
         for (String s : lst) {
             System.out.println(s);
-        }
+        }dsadas
     }
 }sds
