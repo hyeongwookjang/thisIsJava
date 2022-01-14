@@ -12,4 +12,14 @@ class Math {
         System.out.println("3 + 9 = " + calc.add(3, 9));
         }
     }
-dsd
+class Math {
+    public static void main(String[] args) {
+        Calc calc = new Calc();
+        System.out.println("3 + 9 = " + calc.add(3, 9));
+    }
+}class Math {
+    public static void main(String[] args) {
+        Calc calc = new Calc();
+        System.out.println("3 + 9 = " + calc.add(3, 9));
+    }
+}
