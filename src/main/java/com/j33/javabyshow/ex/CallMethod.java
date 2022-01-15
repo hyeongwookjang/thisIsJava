@@ -10,5 +10,3 @@ class Math {
     public static void main(String[] args) {
         Calculation108.Calc calc = new Calculation108.Calc();
         System.out.println("3 + 9 = " + calc.add(3, 9));
-        }
-    }
