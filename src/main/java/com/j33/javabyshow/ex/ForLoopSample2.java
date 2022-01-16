@@ -2,7 +2,7 @@ package com.j33.javabyshow.ex;
 
 import java.util.*;
 
-public class ForLoopSameple2 {
+public class ForLoopSample2 {
     public static void main(String[] args) {
         ArrayList<String> lst = new ArrayList<String>();
 
