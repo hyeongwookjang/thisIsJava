@@ -26,34 +26,20 @@ class Books {
         book.print();
     }
 }
-    lass Books {
+sdasdasclass Books {
 public static void main(String[] args) {
         Book book = new Book("C가 보이는 그림책", 12000) ;
         book.num = 10;
-        book.print();
-        }
-        }lass Books {
-public static void main(String[] args) {
+        book.print();class Books {
+    public static void main(String[] args) {
         Book book = new Book("C가 보이는 그림책", 12000) ;
         book.num = 10;
-        book.print();
-        }
-        }lass Books {
-public static void main(String[] args) {
-        Book book = new Book("C가 보이는 그림책", 12000) ;
-        book.num = 10;
-        book.print();
-        }
-        }lass Books {
-public static void main(String[] args) {
-        Book book = new Book("C가 보이는 그림책", 12000) ;
-        book.num = 10;
-        book.print();
-        }
-        }lass Books {
-public static void main(String[] args) {
-        Book book = new Book("C가 보이는 그림책", 12000) ;
-        book.num = 10;
-        book.print();
-        }
-        }
+        book.print();class Books {
+            public static void main(String[] args) {
+                Book book = new Book("C가 보이는 그림책", 12000) ;
+                book.num = 10;
+                book.print();class Books {
+                    public static void main(String[] args) {
+                        Boodsa("C가 보이는 그림책", 12000) ;
+                                        book.num = 10;
+                                        book.print();
