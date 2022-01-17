@@ -24,5 +24,7 @@ class Books {
         Book book = new Book("C가 보이는 그림책", 12000) ;
         book.num = 10;
         book.print();
+
+        book.print();
     }
 }
