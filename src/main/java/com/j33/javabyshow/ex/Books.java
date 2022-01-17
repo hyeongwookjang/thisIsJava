@@ -18,7 +18,7 @@ class Book {
         System.out.println("합계 금액:" + price*num);
     }
 }
-
+// 이것이자바다 다시 만들기
 class Books {
     public static void main(String[] args) {
         Book book = new Book("C가 보이는 그림책", 12000) ;
