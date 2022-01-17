@@ -9,5 +9,6 @@ public class forLoop {
                 System.out.println(i - j);
                 dsadasdasdasdasdsadas
                 dasdasdasdasdas
+                fasasdasdasd
     }
 }
