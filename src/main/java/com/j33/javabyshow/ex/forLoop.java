@@ -10,5 +10,6 @@ public class forLoop {
                 dsadasdasdasdasdsadas
                 dasdasdasdasdas
                 fasasdasdasd
+                dasdasdas
     }
 }
