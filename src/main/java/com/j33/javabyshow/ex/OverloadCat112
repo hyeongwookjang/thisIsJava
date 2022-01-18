@@ -40,7 +40,6 @@ class Pet {
             cat1.print();
             cat2.print("여기", 3);
             cat3.print("잡종");
-dsds
+
         }
-        dasdasdasdasdasd
 }
