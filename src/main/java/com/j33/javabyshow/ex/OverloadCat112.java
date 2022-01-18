@@ -42,4 +42,5 @@ class Pet {
             cat3.print("잡종");
 dsds
         }
+        dasdasdasdasdasd
 }
