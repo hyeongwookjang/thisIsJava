@@ -13,6 +13,7 @@ class ListTest165 {
         lst.add(a);
         lst.add(b);
         lst.add(c);
+        lst.add(d);
         System.out.println(lst);
 
         lst.add(2, d);
