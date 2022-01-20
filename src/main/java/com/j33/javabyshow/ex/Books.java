@@ -17,6 +17,22 @@ class Book {
         System.out.println("주문 수량:" + num);
         System.out.println("합계 금액:" + price*num);
     }
+    void print() {
+        System.out.println("제 목: " + title);
+        System.out.println("가 격: " + price);
+        System.out.println("주문 수량:" + num);
+        System.out.println("합계 금액:" + price*num);
+    }void print() {
+        System.out.println("제 목: " + title);
+        System.out.println("가 격: " + price);
+        System.out.println("주문 수량:" + num);
+        System.out.println("합계 금액:" + price*num);
+    }void print() {
+        System.out.println("제 목: " + title);
+        System.out.println("가 격: " + price);
+        System.out.println("주문 수량:" + num);
+        System.out.println("합계 금액:" + price*num);
+    }
 }
 
 class Books {
