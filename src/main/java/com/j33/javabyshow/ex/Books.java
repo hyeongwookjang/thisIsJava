@@ -3,7 +3,7 @@ package com.j33.javabyshow.ex;
 
 class Book {
     int price;
-    int num = 00;
+    int num = 0;
     String title;
 
     Book(String t, int p) {
