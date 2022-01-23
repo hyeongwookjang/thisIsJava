@@ -20,6 +20,8 @@ public class CollectionClass164 {
 //
 
 
+
+//dasdasdasdsadasd
 //    ???????인덱스오브는 머지????????????
 //    ArrayList list = new ArrayList();
 //    int x = list.indexof(b);
