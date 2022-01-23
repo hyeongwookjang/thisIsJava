@@ -7,8 +7,5 @@ public class forLoop {
         for (j = 1; j <= 2; j++)
             for (i = 1; i <= 3; i++)
                 System.out.println(i - j);
-                dsadasdasdasdasdsadas
-                dasdasdasdasdas
-                fasasdasdasd
     }
 }
