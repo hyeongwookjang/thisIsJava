@@ -1,0 +1,33 @@
+자바에는 리스트가 2중료가 합니다.
+앨런왈 ArrayList와 LinkedList인데 종종 혼동한다고 한다.
+왜 리스트 인터페이스에 두가지 구현을 했을까
+인터페이스와 이를 구현하는 클래스. 그리고 인터페이스 프로그래밍은 어떤 것일까
+
+몇가지 예제로 ArrayList, LinkedList와 유사한 클래스를 구현합니다.
+이들의 동작 방법과 각각의 장단점을 알게 됩니다. 어떤 동작은 ArrayList가 빠르고
+저장공간을 적게 사용하고, 다른 상황에서는 LinkedList가 빠르거나 메모리 사용량이
+적습니다. 어느 것이 더 좋을지는 수행하는 동작에 달려 있습니다.
+
+
+자바 인터페이스
+자바 인터페이스는 메서드 집합을 의미합니다. 이 인터페이스를 구현하는 클래스는 이런
+메서드를 제공해야합니다. 예를 들어 java.lang 패키지에 정의된
+Comparable interface의 소스코드는 다음과 같습니다.
+
+public interface Comparable<T> {
+    public int compareTo(T o);
+}
+
+이 인터페이스는 타입 파라미터인 T를 사용하여 Comparable이라는 제네릭 타입을 정의합니다.
+이 interface를 구현하려면 클래스는 다음과 같아야 합니다.
+- T 타입을 명시해야 합니다.
+- T 타입의 객체를 인자로 받고 int를 반환하는 compareTo() 메서드를 제공해야 합니다.
+
+예를 들어, java.lang.Integer 클래스의 소스 코드는 다음과 같습니다.
+public int compareTO(Integer anotherInteger) {
+    int ThisVal = this.value;
+    int anotherVal = anotherInteger.value;
+    return (thisVal<anotherVal ? -1 : (thisVal ==anotherVal ? 0 = 1));
+   }
+   // 다른 메서드 생략
+}

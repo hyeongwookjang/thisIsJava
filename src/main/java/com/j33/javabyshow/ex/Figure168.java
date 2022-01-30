@@ -14,7 +14,7 @@ abstract class Figure168 {
 
 
 //추상 클래스의 서브 클래스 Square
-Class Square extends Figure168 {
+Class Square extends Figur.e168 {
     double side;
     double height;
     Square(double s) { // 생성자
