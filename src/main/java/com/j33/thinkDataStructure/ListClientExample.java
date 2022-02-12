@@ -42,7 +42,7 @@ public class ListClientExample {
 //    getList 메서드는 게터 메서드로 List 객체에 대한 참조를 반환합니다.
         list = new LinkedList();
     }
-
+//
     private List getList() {
         return list;
     }
@@ -53,3 +53,11 @@ public class ListClientExample {
         System.out.println(list);
     }
 }
+
+/**
+ * 라이브러리를 사용할 떄 코드는 오직 List와 같은 인터페이스만 의조한고 ArrayList 클래스와
+ * 같은 특정 구현에 의조핸서는 안된다. 이러한 방식으로 함녀 나중에 구현이 변경되어도
+ * 인터페이스를 사용하는 코드는 그대로 사용할 수 있습니다.
+ * 반면에 인터페이스가 변경되면 인터페이스를 의존하는 코드는 변경되어야 합니다.
+ * 그래서 필요한 일이 아니면 라이브러리 개발자가 인터페이스를 변경하지 않는 이유입니다.
+ * */
