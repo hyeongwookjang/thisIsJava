@@ -1,6 +1,7 @@
 package com.j33.thinkDataStructure;
 
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -40,10 +41,10 @@ public class ListClientExample {
     public ListClientExample() {
 //    이 클래스의 생성자는 새로운 LinkedList 객체를 만들어 리스트를 초기화합니다.
 //    getList 메서드는 게터 메서드로 List 객체에 대한 참조를 반환합니다.
-        list = new LinkedList();
+        list = new ArrayList();
     }
 //
-    private List getList() {
+List getList() {
         return list;
     }
 
