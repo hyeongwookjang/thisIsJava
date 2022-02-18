@@ -12,8 +12,6 @@ public class LengthDemo {
         System.out.println(classGroup.length);
         classGroup[2] = "한이람";
         System.out.println(classGroup.length);
-        classGroup[3] = "이고잉";
-        System.out.println(classGroup.length);
 
 
     }
